@@ -6,7 +6,7 @@ stages:
           buildContext: .
           tag: harshadadeokar/sample-api
           pushRemote: true
-          registry: index.docker.io
+          registry: hub.docker.com
 
   - name: Deploy
     steps:
